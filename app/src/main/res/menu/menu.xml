@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:id="@+id/navHome"/>
+    <item android:id="@+id/navLove"
+        android:title="Favourite"
+        android:icon="@drawable/ic_heart"/>
+    <item android:id="@+id/navBuy"
+        android:title="Buy"
+        android:icon="@drawable/ic_add_to_basket"/>
+    <item android:id="@+id/navNotification"
+        android:title="Notification"
+        android:icon="@drawable/ic_notification"/>
+    <item android:id="@+id/navProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_user"/>
+
+</menu>

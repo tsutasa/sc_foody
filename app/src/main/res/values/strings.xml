@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Fooddy</string>
+    <string name="vegesafe">Vegesafe</string>
+    <string name="easy_choose">Easy to choose</string>
+    <string name="slogan">"Shopping tại nhà cùng Vegesafe"</string>
+    <string name="login">Đăng nhập</string>
+    <string name="has_account">Chua co tai khoan?</string>
+    <string name="sign_in">Dang ky</string>
+    <string name="sign_in_now">" Dang ky ngay!"</string>
+    <string name="tt_regis">Dang ki don gian voi thong tin sau</string>
+    <string name="username">Ten dang nhap</string>
+    <string name="password">Mat khau</string>
+    <string name="re_enter_pass">Nhap lai mat khau</string>
+    <string name="phone">So dien thoai</string>
+    <string name="agree">Dong y voi cac dieu khoan va chinh sach cua chung toi.</string>
+    <string name="dieu_khoan">Dieu khoan dang ky</string>
+    <string name="enter_otp">Nhap ma xac minh</string>
+    <string name="re_send">Gui lai</string>
+    <string name="error_otp">Ma xac minh khong dung</string>
+    <string name="check">Vui long kiem tra lai ma xac minh !</string>
+    <string name="dang_nhap">Dang nhap</string>
+    <string name="err_acc">Ten dang nhap hoac mat khau khong dung</string>
+    <string name="forgot">Quen mat khau</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi">Hi, Anndee</string>
+    <string name="question">Ban dang muon tim gi?</string>
+    <string name="location">Ha noi</string>
+    <string name="enter_search">Nhap tim kiem</string>
+    <string name="hoa_qua">Hoa qua</string>
+    <string name="rau_cu">Rau cu</string>
+    <string name="do_kho">Do kho</string>
+    <string name="pho_bien">Pho bien</string>
+    <string name="all">Tat ca</string>
+    <string name="cam_sanh">Cam sanh</string>
+    <string name="ha_giang">Ha giang</string>
 </resources>
