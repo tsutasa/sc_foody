@@ -34,4 +34,6 @@
     <string name="all">Tat ca</string>
     <string name="cam_sanh">Cam sanh</string>
     <string name="ha_giang">Ha giang</string>
+    <string name="dau_tay">Dau tay</string>
+    <string name="da_lat">Da lat</string>
 </resources>
