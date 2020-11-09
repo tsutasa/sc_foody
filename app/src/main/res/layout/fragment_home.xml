@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/enter_search"
                 android:textAlignment="center"
-                android:background="@drawable/bg_edt_search"/>
+                android:background="@drawable/bg_shadow"/>
             <RelativeLayout
                 android:layout_gravity="center"
                 android:background="@drawable/bg_search"
@@ -96,7 +96,7 @@
                 android:textColor="@color/black"
                 android:textAllCaps="false"
                 android:textAlignment="center"
-                android:background="@drawable/bg_edt_search"
+                android:background="@drawable/bg_shadow"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:text="@string/rau_cu"/>
@@ -107,7 +107,7 @@
                 android:textColor="@color/black"
                 android:textAllCaps="false"
                 android:textAlignment="center"
-                android:background="@drawable/bg_edt_search"
+                android:background="@drawable/bg_shadow"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:text="@string/do_kho"/>
@@ -143,7 +143,8 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_edt_search"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_shadow"
                 android:layout_height="wrap_content">
 
                 <ImageView
@@ -170,6 +171,7 @@
                     android:textColor="@color/orange"
                     android:textSize="20sp"/>
                 <LinearLayout
+                    android:layout_marginBottom="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintStart_toStartOf="parent"
@@ -182,6 +184,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_location"/>
                     <TextView
+                        android:layout_gravity="center"
                         android:id="@+id/tvSanxuat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -213,8 +216,9 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="0dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@drawable/bg_edt_search"
+                android:background="@drawable/bg_shadow"
                 android:layout_height="wrap_content">
                 <ImageView
                     app:layout_constraintVertical_bias="0"
@@ -244,6 +248,7 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginBottom="4dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tvName2"
                     android:orientation="horizontal">
@@ -252,6 +257,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_location"/>
                     <TextView
+                        android:layout_gravity="center"
                         android:id="@+id/tvSanxuat2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
