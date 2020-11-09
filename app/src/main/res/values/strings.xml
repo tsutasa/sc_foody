@@ -36,4 +36,17 @@
     <string name="ha_giang">Ha giang</string>
     <string name="dau_tay">Dau tay</string>
     <string name="da_lat">Da lat</string>
+    <string name="for_you">Danh cho ban</string>
+    <string name="cafehat">Ca phe hat</string>
+    <string name="hai_duong">Hai duong</string>
+    <string name="vai_thieu">vai thieu</string>
+    <string name="love">Yeu thich</string>
+    <string name="noti">Thong bao</string>
+    <string name="thanhcong">dat don hang thanh cong</string>
+    <string name="acc">tai khoan</string>
+    <string name="xac_thuc">Xac thuc taii khoan</string>
+    <string name="sign_out">Dang xuat</string>
+    <string name="change_pass">Thay doi pass</string>
+    <string name="cart">Gia hang</string>
+    <string name="mua_hang">Mua hang</string>
 </resources>
