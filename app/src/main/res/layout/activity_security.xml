@@ -23,6 +23,67 @@
             android:textSize="25sp"
             android:textColor="@color/orange"
             android:layout_centerInParent="true"
-            android:text="@string/details_noti"/>
+            android:text="@string/xac_minh"/>
     </RelativeLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ct_xm"
+        android:textSize="18sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/shadow"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/camera"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/mat_trc"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/camera"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/mat_sau"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_login"
+        android:textColor="@color/white"
+        android:text="@string/xac_nhan"/>
 </LinearLayout>

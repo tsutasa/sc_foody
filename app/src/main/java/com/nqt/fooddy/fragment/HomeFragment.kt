@@ -1,60 +1,89 @@
 package com.nqt.fooddy.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import com.nqt.fooddy.R
+import com.nqt.fooddy.activity.DetailsActivity
+import kotlinx.android.synthetic.main.fragment_home.*
+import kotlinx.android.synthetic.main.fragment_home.view.*
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [HomeFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
-class HomeFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+class HomeFragment : Fragment(), View.OnClickListener {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val v = inflater.inflate(R.layout.fragment_home, container, false)
+        initView(v)
+        return v
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment HomeFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            HomeFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+    private fun initView(v: View) {
+        v.btnHq.setOnClickListener(this)
+        v.btnRc.setOnClickListener(this)
+        v.btnDk.setOnClickListener(this)
+        v.ctFood1.setOnClickListener(this)
+        v.ctFood2.setOnClickListener(this)
+        v.ll1.setOnClickListener(this)
+        v.ll2.setOnClickListener(this)
+        v.ll3.setOnClickListener(this)
+        v.ll4.setOnClickListener(this)
     }
+
+    override fun onClick(p0: View) {
+        when(p0.id){
+            R.id.btnHq->{
+                btnHq.background = ContextCompat.getDrawable(context!!,R.drawable.bg_login)
+                btnDk.background = ContextCompat.getDrawable(context!!,R.drawable.bg_shadow)
+                btnRc.background = ContextCompat.getDrawable(context!!,R.drawable.bg_shadow)
+                btnHq.setTextColor(ContextCompat.getColor(context!!,R.color.white))
+                btnDk.setTextColor(ContextCompat.getColor(context!!,R.color.black))
+                btnRc.setTextColor(ContextCompat.getColor(context!!,R.color.black))
+            }
+            R.id.btnRc->{
+                btnHq.background = ContextCompat.getDrawable(context!!,R.drawable.bg_shadow)
+                btnDk.background = ContextCompat.getDrawable(context!!,R.drawable.bg_shadow)
+                btnRc.background = ContextCompat.getDrawable(context!!,R.drawable.bg_login)
+                btnHq.setTextColor(ContextCompat.getColor(context!!,R.color.black))
+                btnDk.setTextColor(ContextCompat.getColor(context!!,R.color.black))
+                btnRc.setTextColor(ContextCompat.getColor(context!!,R.color.white))
+            }
+            R.id.btnDk->{
+                btnHq.background = ContextCompat.getDrawable(context!!,R.drawable.bg_shadow)
+                btnDk.background = ContextCompat.getDrawable(context!!,R.drawable.bg_login)
+                btnRc.background = ContextCompat.getDrawable(context!!,R.drawable.bg_shadow)
+                btnHq.setTextColor(ContextCompat.getColor(context!!,R.color.black))
+                btnDk.setTextColor(ContextCompat.getColor(context!!,R.color.white))
+                btnRc.setTextColor(ContextCompat.getColor(context!!,R.color.black))
+            }
+            R.id.ctFood1->{
+                startActivity(Intent(activity,DetailsActivity::class.java))
+            }
+            R.id.ctFood2->{
+                startActivity(Intent(activity,DetailsActivity::class.java))
+            }
+            R.id.ll1->{
+                startActivity(Intent(activity,DetailsActivity::class.java))
+            }
+            R.id.ll2->{
+                startActivity(Intent(activity,DetailsActivity::class.java))
+            }
+            R.id.ll3->{
+                startActivity(Intent(activity,DetailsActivity::class.java))
+            }
+            R.id.ll4->{
+                startActivity(Intent(activity,DetailsActivity::class.java))
+            }
+        }
+    }
+
+
 }

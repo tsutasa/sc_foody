@@ -82,6 +82,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:id="@+id/btnHq"
                 android:textColor="@color/white"
                 android:textAllCaps="false"
                 android:textAlignment="center"
@@ -95,12 +96,14 @@
                 android:layout_weight="1"
                 android:textColor="@color/black"
                 android:textAllCaps="false"
+                android:id="@+id/btnRc"
                 android:textAlignment="center"
                 android:background="@drawable/bg_shadow"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:text="@string/rau_cu"/>
             <Button
+                android:id="@+id/btnDk"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -142,6 +145,7 @@
             android:orientation="horizontal">
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="0dp"
+                android:id="@+id/ctFood1"
                 android:layout_weight="1"
                 android:layout_margin="5dp"
                 android:background="@drawable/bg_shadow"
@@ -217,6 +221,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="0dp"
                 android:layout_margin="5dp"
+                android:id="@+id/ctFood2"
                 android:layout_weight="1"
                 android:background="@drawable/bg_shadow"
                 android:layout_height="wrap_content">
@@ -300,6 +305,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:id="@+id/ll1"
             android:orientation="horizontal">
             <ImageView
                 android:layout_margin="3dp"
@@ -415,6 +421,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/ll2"
             android:background="@drawable/bg_shadow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -534,6 +541,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/ll3"
             android:background="@drawable/bg_shadow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -653,6 +661,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
         <LinearLayout
+            android:id="@+id/ll4"
             android:background="@drawable/bg_shadow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
