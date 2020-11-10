@@ -39,4 +39,17 @@
     <string name="details_noti">Chi tiet thong bao</string>
     <string name="content">8:00 AM, 23/07/2020 \n \n Mã đơn hàng: 111A023 \n \n Tên hàng: Hoa quả \n \nThời gian giao: 24/10/2020- 25/10/2020 \n\n Đơn hàng của bạn đã được xác thực thành công. Quý khách vui lòng phản hồi về chất lượng sản phẩm sau khi nhận hàng. \n \n \n Nếu có bất kì thắc mắc nào, quý khách có thể liên hệ trực tiếp hotline để được hỗ trợ kịp thời. \n\n \n Hotline: 19008198</string>
     <string name="dat_hang_thanh_cong">Dat don hang thanh cong</string>
+    <string name="for_you">Danh cho ban</string>
+    <string name="cafehat">Ca phe hat</string>
+    <string name="hai_duong">Hai duong</string>
+    <string name="vai_thieu">vai thieu</string>
+    <string name="love">Yeu thich</string>
+    <string name="noti">Thong bao</string>
+    <string name="thanhcong">dat don hang thanh cong</string>
+    <string name="acc">tai khoan</string>
+    <string name="xac_thuc">Xac thuc taii khoan</string>
+    <string name="sign_out">Dang xuat</string>
+    <string name="change_pass">Thay doi pass</string>
+    <string name="cart">Gia hang</string>
+    <string name="mua_hang">Mua hang</string>
 </resources>
