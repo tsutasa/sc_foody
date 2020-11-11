@@ -360,6 +360,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/mua_hang"
+    android:id="@+id/btnBuy"
     android:background="@drawable/bg_login"
     android:textColor="@color/white"
     android:textAllCaps="false"/>

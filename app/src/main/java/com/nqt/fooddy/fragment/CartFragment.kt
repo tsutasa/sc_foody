@@ -1,11 +1,14 @@
 package com.nqt.fooddy.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.nqt.fooddy.R
+import com.nqt.fooddy.activity.CartActivity
+import kotlinx.android.synthetic.main.fragment_cart.view.*
 
 class CartFragment : Fragment() {
 
@@ -20,7 +23,9 @@ class CartFragment : Fragment() {
     }
 
     private fun initView(v: View) {
-
+        v.btnBuy.setOnClickListener {
+            startActivity(Intent(activity,CartActivity::class.java))
+        }
     }
 
 

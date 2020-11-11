@@ -349,7 +349,6 @@
         android:layout_height="wrap_content"
         android:paddingStart="40dp"
         android:paddingEnd="40dp"
-        android:layout_margin="30dp"
         android:layout_gravity="center"
         android:background="@drawable/bg_login"
         android:textColor="@color/white"
