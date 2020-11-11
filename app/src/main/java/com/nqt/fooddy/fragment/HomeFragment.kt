@@ -47,6 +47,13 @@ class HomeFragment : Fragment(), View.OnClickListener {
                 btnHq.setTextColor(ContextCompat.getColor(context!!,R.color.white))
                 btnDk.setTextColor(ContextCompat.getColor(context!!,R.color.black))
                 btnRc.setTextColor(ContextCompat.getColor(context!!,R.color.black))
+                ivThumb.setImageResource(R.drawable.orange_from_gardencopy)
+                ivThumb2.setImageResource(R.drawable.dau_da_lat)
+                food1.setImageResource(R.drawable.vai_thieucopy)
+                food4.setImageResource(R.drawable.orange_from_gardencopy)
+                food2.setImageResource(R.drawable.dau_da_lat)
+                food3.setImageResource(R.drawable.cut_whole_orange_fruits_with_green_leaves)
+
             }
             R.id.btnRc->{
                 btnHq.background = ContextCompat.getDrawable(context!!,R.drawable.bg_shadow)
@@ -55,6 +62,12 @@ class HomeFragment : Fragment(), View.OnClickListener {
                 btnHq.setTextColor(ContextCompat.getColor(context!!,R.color.black))
                 btnDk.setTextColor(ContextCompat.getColor(context!!,R.color.black))
                 btnRc.setTextColor(ContextCompat.getColor(context!!,R.color.white))
+                ivThumb.setImageResource(R.drawable.bap_xai_xanh_dau_vang_huwycopy)
+                ivThumb2.setImageResource(R.drawable.raumuong)
+                food1.setImageResource(R.drawable.bap_xai_xanh_dau_vang_huwycopy)
+                food2.setImageResource(R.drawable.suplo)
+                food3.setImageResource(R.drawable.raumuong)
+                food4.setImageResource(R.drawable.suplo)
             }
             R.id.btnDk->{
                 btnHq.background = ContextCompat.getDrawable(context!!,R.drawable.bg_shadow)
@@ -63,6 +76,12 @@ class HomeFragment : Fragment(), View.OnClickListener {
                 btnHq.setTextColor(ContextCompat.getColor(context!!,R.color.black))
                 btnDk.setTextColor(ContextCompat.getColor(context!!,R.color.white))
                 btnRc.setTextColor(ContextCompat.getColor(context!!,R.color.black))
+                ivThumb.setImageResource(R.drawable.huongduong)
+                ivThumb2.setImageResource(R.drawable.pablo_merchan_montes_scbq6ukcymy_unsplashcopy)
+                food1.setImageResource(R.drawable.hatcuoi)
+                food2.setImageResource(R.drawable.hatdieu)
+                food3.setImageResource(R.drawable.huongduong)
+                food4.setImageResource(R.drawable.hatcuoi)
             }
             R.id.ctFood1->{
                 startActivity(Intent(activity,DetailsActivity::class.java))

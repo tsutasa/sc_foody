@@ -20,12 +20,23 @@ class HomeActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         initView()
+
     }
 
     private fun initView() {
         window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
 //        toolbar = supportActionBar!!
         nav.setOnNavigationItemSelectedListener(this)
+
+        if(intent != null && intent.getStringExtra("shop")=="shop"){
+            val fragment = CartFragment()
+            loadFragment(fragment)
+            nav.selectedItemId = R.id.navBuy
+        }else{
+            val fragment = HomeFragment()
+            loadFragment(fragment)
+        }
+
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
